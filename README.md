@@ -4,7 +4,7 @@
 ---
 
 1. **Pandas**
-   - 
+   - organize and analyze data in tables. Makes it a lot easier to clean data and identify patterns or missing data
      ```bash
      pip install pandas
      ```
