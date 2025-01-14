@@ -1,10 +1,12 @@
 # Analytical Job Market Analysis
 
+![image](https://github.com/user-attachments/assets/6e603c70-40d1-4117-ab63-1ffb3ac92c63)
+
 ## Project Overview 📖
 
 ### What makes a job analytical?
 
-With the rise of Data Scientist and Data Analyst roles in the industry, these positions have garnered significant attention from job seekers due to their competitive salaries, remote work opportunities, and intellectually stimulating challenges. As an aspiring data scientist, I found myself intrigued by what truly defines a job as analytical. The term "analytical" is undeniably broad, spanning across various industries and disciplines, which further fueled my curiosity. To delve deeper into this topic, I conducted an analysis to explore the following key questions:
+With the rise of Data Scientist and Data Analyst roles in the industry, these positions have garnered significant attention from job seekers due to their competitive salaries, remote work opportunities, and intellectually stimulating challenges. As an aspiring data scientist, I found myself intrigued by what truly defines a job as analytical. The term "analytical" is broad, spanning across various industries and disciplines, which further fueled my curiosity. To delve deeper into this topic, I conducted an analysis to explore the following key questions:
 
    1. What criteria classify a job as analytical?
    2. Are analytical jobs at risk of being replaced by AI?
@@ -13,6 +15,11 @@ With the rise of Data Scientist and Data Analyst roles in the industry, these po
       
 This exploration aims to shed light on the evolving nature of analytical roles and their place in the modern workforce.
 
+### Approach
+
+I began by formulating my own definition of the term "analytical." To further refine my approach, I utilized datasets from the O*NET Database, which provides comprehensive labor market data. Using natural language processing (NLP), I developed a model to classify jobs as analytical or not, based on semantic similarity in textual data.
+
+The process involved normalizing the similarity scores, rescaling them into weights, and calculating the weighted average of work activities associated with each job. Jobs were then classified as analytical if they surpassed a predefined threshold. With this classification in place, I analyzed various characteristics of these roles, including required skills, educational qualifications, and their susceptibility to automation. This systematic approach provided insights into the defining features of analytical jobs and their evolving landscape in the workforce.
 
 ### Libraries Overview and Installation
 ---
