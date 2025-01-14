@@ -1,6 +1,20 @@
 # Analytical Job Market Analysis
 
-## Libraries Overview and Installation
+## Project Overview 📖
+
+### What makes a job analytical?
+
+With the rise of Data Scientist and Data Analyst roles in the industry, these positions have garnered significant attention from job seekers due to their competitive salaries, remote work opportunities, and intellectually stimulating challenges. As an aspiring data scientist, I found myself intrigued by what truly defines a job as analytical. The term "analytical" is undeniably broad, spanning across various industries and disciplines, which further fueled my curiosity. To delve deeper into this topic, I conducted an analysis to explore the following key questions:
+
+   1. What criteria classify a job as analytical?
+   2. Are analytical jobs at risk of being replaced by AI?
+   3. What skills are essential for these roles?
+   4. What kind of education is typically required for analytical positions?
+      
+This exploration aims to shed light on the evolving nature of analytical roles and their place in the modern workforce.
+
+
+### Libraries Overview and Installation
 ---
 
 1. **Pandas**
